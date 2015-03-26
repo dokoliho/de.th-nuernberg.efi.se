@@ -1,8 +1,13 @@
 
-public class Application {
+import java.util.Scanner;
 
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
+public class Application {
 	
+  public static void main(String[] args) {
+	  
+    Scanner scanner = new Scanner(System.in);
+    int i = scanner.nextInt();
+    System.out.println(i*i);
+    scanner.close();
+  }
 }
