@@ -22,7 +22,7 @@ public class PrimZahlManager {
 				System.out.println(i);
 	}
 		
-	// Start der Ausführung
+	// Start der Ausfuehrung
 	public static void main(String[] args)
 	{
 		PrimZahlManager m = new PrimZahlManager();
