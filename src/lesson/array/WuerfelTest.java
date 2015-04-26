@@ -1,5 +1,7 @@
 package lesson.array;
 
+// Entspricht Folie 26
+
 public class WuerfelTest {
 	
 	public static void main(String[] args)

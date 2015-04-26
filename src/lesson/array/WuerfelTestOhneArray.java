@@ -1,5 +1,7 @@
 package lesson.array;
 
+// Entspricht Folie 14
+
 public class WuerfelTestOhneArray {
 	
 	public static void main(String[] args)
