@@ -1,4 +1,4 @@
-package lession.scope;
+package lesson.scope;
 
 // Diese Klasse wird auf Folie 19
 // im Foliensatz zu Scope betrachtet
