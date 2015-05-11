@@ -13,7 +13,7 @@ public class ZiehungTest {
 
 		for (int i=0; i<numbers.length; i++)
 			for (int j=0; j<i; j++)
-				assertNotEquals(numbers[i], numbers[j]);
+				assertFalse(numbers[i]==numbers[j]);
 	}
 
 	
