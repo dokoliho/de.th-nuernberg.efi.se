@@ -1,4 +1,4 @@
-package lesson.polymorphie2;
+package lesson.materialbuchung.loesung;
 
 // Eine Annahmestelle fuer Material muss das nachfolgende Interface
 // GoodsSink (=Materialsenke) implementieren.

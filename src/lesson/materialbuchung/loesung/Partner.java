@@ -1,4 +1,4 @@
-package lesson.polymorphie2;
+package lesson.materialbuchung.loesung;
 
 // Alle Geschaeftspartner unseres Unternehmens (Kunden, Lieferanten,
 // Spediteure, Mitarbeiter etc.) muessen als Unterklasse der

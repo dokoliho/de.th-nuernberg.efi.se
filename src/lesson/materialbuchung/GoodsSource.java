@@ -1,4 +1,4 @@
-package lesson.polymorphie2;
+package lesson.materialbuchung;
 
 // Eine Abgabestelle fuer Material muss das nachfolgende Interface
 // GoodsSource (=Materialquelle) implementieren.

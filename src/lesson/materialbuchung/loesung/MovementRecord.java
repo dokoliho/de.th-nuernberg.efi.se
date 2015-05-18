@@ -1,4 +1,4 @@
-package lesson.polymorphie2;
+package lesson.materialbuchung.loesung;
 
 // Instanzen dieser Klasse repraesentieren Materialbuchungssaetze. 
 // Sie beschreiben im Detail, wieviel Material von wo nach wohin
@@ -52,9 +52,6 @@ public class MovementRecord
 	
 	public static void main(String[] args)
 	{
-		/*****************************************************************************
-		 * Nach Loesung der Aufgabenstellung sollte der nachfolgende Programmcode
-		 * ablauffaehig sein. Pruefen Sie ggf. die Ausgabe auf der Konsole.
 		 
 				Vendor v1 = new Vendor("Lukas", "Hamburg");
 				Vendor v2 = new Vendor("Landgraf", "Berlin");
@@ -64,7 +61,9 @@ public class MovementRecord
 				
 				Stock s = new Stock();
 				
-				new MovementRecord(v1, s, 100).book();
+				MovementRecord m = new MovementRecord(v1, s, 100);
+				m.book();
+				
 				new MovementRecord(s, c1, 80).book();
 				new MovementRecord(s, c2, 10).book();
 				new MovementRecord(s, c1, 20).book();
@@ -74,7 +73,6 @@ public class MovementRecord
 				c1.sendInvoice();
 				c2.sendInvoice();
 
-		*****************************************************************************/
 	}
 	
 }
