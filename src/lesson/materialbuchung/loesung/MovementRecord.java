@@ -61,9 +61,11 @@ public class MovementRecord
 				
 				Stock s = new Stock();
 				
+				// Lange Version der nachfolgenden Kurzschreibweise
 				MovementRecord m = new MovementRecord(v1, s, 100);
 				m.book();
 				
+				// ...und jetzt ohne den Zwischenschritt mit Variable
 				new MovementRecord(s, c1, 80).book();
 				new MovementRecord(s, c2, 10).book();
 				new MovementRecord(s, c1, 20).book();
