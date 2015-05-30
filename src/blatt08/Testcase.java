@@ -1,4 +1,4 @@
-package blatt8;
+package blatt08;
 
 import static org.junit.Assert.*;
 

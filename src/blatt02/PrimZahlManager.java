@@ -1,4 +1,4 @@
-package blatt2;
+package blatt02;
 
 public class PrimZahlManager {
 	

@@ -1,4 +1,4 @@
-package blatt7;
+package blatt07;
 
 // Die beiden an den Konstruktor uebergebenen Widerstaende werden 
 // gespeichert. Bei bedarf wird der ohmsche Widerstand der 

@@ -1,4 +1,4 @@
-package blatt6;
+package blatt06;
 
 
 public class Stack {

@@ -1,4 +1,4 @@
-package blatt8;
+package blatt08;
 
 // Nachfolgende Klasse ist eine Hilfsklasse, die die vorhandenen
 // Muenztypen repraesentiert. Dazu stellt sie ein oeffentliches

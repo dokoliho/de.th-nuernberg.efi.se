@@ -1,4 +1,4 @@
-package blatt8;
+package blatt08;
 
 // Ihre Aufgabe ist es, in der nachfolgenden Klasse die geerbte
 // Methode getChange zu ueberschreiben. Natuerlich muss der

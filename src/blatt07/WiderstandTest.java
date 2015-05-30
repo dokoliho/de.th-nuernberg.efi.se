@@ -1,4 +1,4 @@
-package blatt7;
+package blatt07;
 
 import org.junit.*;
 

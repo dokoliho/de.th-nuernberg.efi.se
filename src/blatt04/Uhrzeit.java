@@ -1,4 +1,4 @@
-package blatt4;
+package blatt04;
 
 public class Uhrzeit {
 	

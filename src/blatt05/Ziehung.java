@@ -1,4 +1,4 @@
-package blatt5;
+package blatt05;
 
 public class Ziehung {
 	

@@ -1,4 +1,4 @@
-package blatt6;
+package blatt06;
 
 // Die nachfolgende Klasse bietet mehrere Implementierungen
 // fuer die Berechnung der Fibonacci-Zahlen

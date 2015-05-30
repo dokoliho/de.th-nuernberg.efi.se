@@ -1,4 +1,4 @@
-package blatt7;
+package blatt07;
 
 // Der ohmsche Widerstand muss in einer Instanzvariablen gespeichert 
 // und bei Bedarf zurueckgegeben werden

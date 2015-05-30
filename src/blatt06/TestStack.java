@@ -1,4 +1,4 @@
-package blatt6;
+package blatt06;
 
 import org.junit.*;
 import static org.junit.Assert.*;

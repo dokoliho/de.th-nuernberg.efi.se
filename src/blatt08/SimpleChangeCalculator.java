@@ -1,4 +1,4 @@
-package blatt8;
+package blatt08;
 
 // Die nachfolgende Klasse beinhaltet einen sehr einfachen
 // Algorithmus zur Ermittlung des Wechselgelds: Es wird

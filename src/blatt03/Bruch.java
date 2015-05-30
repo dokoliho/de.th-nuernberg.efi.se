@@ -1,4 +1,4 @@
-package blatt3;
+package blatt03;
 
 
 public class Bruch {
@@ -51,7 +51,7 @@ public class Bruch {
 	// Klasse verwendet.
 	
 	void kuerzen() {
-		long ggt = blatt2.GgtTester.ggT(zaehler, nenner);
+		long ggt = blatt02.GgtTester.ggT(zaehler, nenner);
 		nenner /= ggt;
 		zaehler /= ggt;
 	}
