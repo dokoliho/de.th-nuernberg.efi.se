@@ -3,18 +3,18 @@ package blatt06;
 
 public class Stack {
 	
-	int[] data;
-	int index;
+	private int[] data;
+	private int index;
 	
 	// Konstruktor, liefert einen leeren Stapel mit der Maximalhoehe l.
-	Stack(int l) { 
+	public Stack(int l) { 
 		data = new int [l];
 		index = 0;
 	}
 
 	// Falls der Stapel voll ist, wird false zurueckgemeldet, andernfalls 
 	// wird die Zahl i hinzugefuegt und true zurueckgegeben.
-	boolean push(int i) 
+	public boolean push(int i) 
 	{
 		if (index >= data.length) return false;
 		data[index++] = i;
@@ -23,13 +23,13 @@ public class Stack {
 	
 	// Die zuletzt hinzugefuegte Zahl wird entfernt und zurueckgegeben. 
 	// Ist keine Zahl auf dem Stapel, so ist der Rueckgabewert undefiniert.
-	int pop() {
+	public int pop() {
 		if (empty()) return 0;
 		return data[--index]; 
 	}
 	
 	// Falls der Stapel leer ist, wird true zurueckgeliefert, sonst false.
-	boolean empty() { 
+	public boolean empty() { 
 		return (index == 0); 
 	} 
 	
