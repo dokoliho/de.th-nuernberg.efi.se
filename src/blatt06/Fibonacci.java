@@ -20,7 +20,7 @@ public class Fibonacci {
 	
 	// Rekursive Implementierung der Berechnung
 	// (analog zur mathematischen Definition)
-	static long recursive(long n) {
+	static public long recursive(long n) {
 		if ((n == 1) || (n == 2)) return 1;
 		return recursive(n-1) + recursive(n-2);
 	}
