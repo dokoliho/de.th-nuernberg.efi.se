@@ -3,6 +3,8 @@ package lesson.swing;
 import java.awt.*;
 import javax.swing.*;
 
+// Beispiel aus dem Skript
+
 public class Gui implements Runnable {
 
 	public void run() {
