@@ -10,7 +10,7 @@ import javax.swing.*;
 public class FibGui implements Runnable {
 
 	// Hier startet das Programm und gibt den Auftrag zum
-	// Aufbau der Oberfläche an Swing
+	// Aufbau der Oberflaeche an Swing
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new FibGui());
 
@@ -36,7 +36,7 @@ public class FibGui implements Runnable {
 		label.setText(s);
 	}
 	
-	// Initialer AUfbau der Oberfläche
+	// Initialer Aufbau der Oberflaeche
 	public void run() {
 		
 		JFrame window = new JFrame("Fibonacci Rechner");
