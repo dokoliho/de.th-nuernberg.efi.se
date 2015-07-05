@@ -6,10 +6,10 @@ import java.awt.event.ActionListener;
 public class AddButtonPressedActionListener implements ActionListener {
 
 	private Calculator calculator;
-	private Gui gui;
+	private CalcGui gui;
 
 	
-	public AddButtonPressedActionListener(Gui g, Calculator c) {
+	public AddButtonPressedActionListener(CalcGui g, Calculator c) {
 		calculator = c;
 		gui = g;
 	}

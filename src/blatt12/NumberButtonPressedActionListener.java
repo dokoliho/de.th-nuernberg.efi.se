@@ -7,10 +7,10 @@ public class NumberButtonPressedActionListener implements ActionListener {
 
 	private int value = 0;
 	private Calculator calculator;
-	private Gui gui;
+	private CalcGui gui;
 
 	
-	public NumberButtonPressedActionListener(Gui g, Calculator c, int number) {
+	public NumberButtonPressedActionListener(CalcGui g, Calculator c, int number) {
 		value = number;
 		calculator = c;
 		gui = g;

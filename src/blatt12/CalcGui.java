@@ -4,7 +4,7 @@ import java.awt.*;
 
 import javax.swing.*;
 
-public class Gui implements Runnable {
+public class CalcGui implements Runnable {
 	
 	Calculator calculator = new Calculator();
 	JTextField display;
