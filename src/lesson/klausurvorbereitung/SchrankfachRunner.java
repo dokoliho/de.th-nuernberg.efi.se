@@ -21,7 +21,7 @@ public class SchrankfachRunner {
 	
 	// Ausgabe der offenen Faecher
 	private void printOpenDoors() {
-		System.out.println("Offene Fächer:");
+		System.out.println("Offene Faecher:");
 		for (int f= 0; f < 100; f++)
 			if (fach[f] == OFFEN)
 				System.out.println(f);
