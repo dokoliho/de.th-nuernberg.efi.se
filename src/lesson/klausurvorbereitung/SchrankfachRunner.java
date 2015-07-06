@@ -23,9 +23,9 @@ public class SchrankfachRunner {
 	private void printOpenDoors() {
 		int zaehler = 0;
 		System.out.println("Offene Faecher:");
-		for (int f= 0; f < 100; f++)
-			if (fach[f] == OFFEN) {
-				System.out.print((f+1) + " ");
+		for (int f= 1; f <= 100; f++)
+			if (fach[f-1] == OFFEN) {
+				System.out.print(f + " ");
 				zaehler++;
 			}
 		System.out.println("Insgesamt:" + zaehler);		
