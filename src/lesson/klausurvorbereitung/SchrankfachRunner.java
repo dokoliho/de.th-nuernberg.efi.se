@@ -9,22 +9,26 @@ public class SchrankfachRunner {
 	
 	// Initialisierung
 	SchrankfachRunner() {
-		for (int i=0; i<100; i++)
-			fach[i]=ZU;		
+		for (int i=1; i<=100; i++)
+			fach[i-1]=ZU;		
 	}
 	
 	// Ein Durchlauf (Schrittweite num)
 	private void doRun(int num) {
-		for (int f = 0; f < 100; f+= num)
-			fach[f] = !fach[f];
+		for (int f = num; f <= 100; f+= num)
+			fach[f-1] = !fach[f-1];
 	}
 	
 	// Ausgabe der offenen Faecher
 	private void printOpenDoors() {
+		int zaehler = 0;
 		System.out.println("Offene Faecher:");
 		for (int f= 0; f < 100; f++)
-			if (fach[f] == OFFEN)
-				System.out.println(f);
+			if (fach[f] == OFFEN) {
+				System.out.print((f+1) + " ");
+				zaehler++;
+			}
+		System.out.println("Insgesamt:" + zaehler);		
 	}
 	
 	// Startpunkt des Programms
