@@ -1,4 +1,4 @@
-package blatt08;
+package blatt08a;
 
 // Ihre Aufgabe ist es, in der nachfolgenden Klasse die geerbte
 // Methode getChange zu ueberschreiben. Natuerlich muss der
@@ -9,18 +9,7 @@ package blatt08;
 public class EnhancedChangeCalculator extends SimpleChangeCalculator 
 {
 	
-	public int[] getChange(int euros, int cent)
-	{
-		int[] result  = new int[Coin.availableCoins.length];
-		int gesamtcent = euros * 100 + cent;
-		
-		for (int c = Coin.availableCoins.length-1; c>=0; c--)
-		{
-			result[c] = gesamtcent / Coin.availableCoins[c].value();
-			gesamtcent %= Coin.availableCoins[c].value();
-		}
-		return result;
-	}
+	// Hier fehlt Ihre Implementierung
 
 	// Die nachfolgende main-Methode kann genutzt werden, um das
 	// Ergebnis zu ueberpruefen.
